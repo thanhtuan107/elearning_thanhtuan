@@ -1,0 +1,248 @@
+1 - Lấy danh sách , tìm kiếm khóa học
+[
+  {
+    "maKhoaHoc": "LTC_GP01",
+    "biDanh": "lap-trinh-c",
+    "tenKhoaHoc": "lập trình c++",
+    "moTa": "lập trình c++",
+    "luotXem": 10,
+    "hinhAnh": "http://elearning0706.cybersoft.edu.vn/hinhanh/khoahoc/lap-trinh-c-gp01.png",
+    "maNhom": "GP01",
+    "ngayTao": "01/01/2019",
+    "soLuongHocVien": 0,
+    "nguoiTao": {
+      "taiKhoan": "khai",
+      "hoTen": "khải",
+      "maLoaiNguoiDung": "GV",
+      "tenLoaiNguoiDung": "Giáo vụ"
+    },
+    "danhMucKhoaHoc": {
+      "maDanhMucKhoahoc": "TuDuy",
+      "tenDanhMucKhoaHoc": "Tư duy lập trình"
+    }
+  }
+
+  1.1 - Lấy chi tiết khóa học
+  {
+  "maKhoaHoc": "LTC_GP01",
+  "biDanh": "lap-trinh-c",
+  "tenKhoaHoc": "lập trình c++",
+  "moTa": "lập trình c++",
+  "luotXem": 10,
+  "hinhAnh": "http://elearning0706.cybersoft.edu.vn/hinhanh/khoahoc/",
+  "maNhom": "GP01",
+  "ngayTao": "01/01/2019",
+  "soLuongHocVien": 0,
+  "nguoiTao": {
+    "taiKhoan": "khai",
+    "hoTen": "khải",
+    "maLoaiNguoiDung": "GV",
+    "tenLoaiNguoiDung": "Giáo vụ"
+  },
+  "danhMucKhoaHoc": {
+    "maDanhMucKhoahoc": "TuDuy",
+    "tenDanhMucKhoaHoc": "Tư duy lập trình"
+  }
+}
+2 - Lấy danh mục khóa học
+[
+  {
+    "maDanhMuc": "BackEnd",
+    "tenDanhMuc": "Lập trình Backend"
+  },
+  {
+    "maDanhMuc": "Design",
+    "tenDanhMuc": "Thiết kế Web"
+  },
+  {
+    "maDanhMuc": "DiDong",
+    "tenDanhMuc": "Lập trình di động"
+  },
+  {
+    "maDanhMuc": "FrontEnd",
+    "tenDanhMuc": "Lập trình Front end"
+  },
+  {
+    "maDanhMuc": "FullStack",
+    "tenDanhMuc": "Lập trình Full Stack"
+  },
+  {
+    "maDanhMuc": "TuDuy",
+    "tenDanhMuc": "Tư duy lập trình"
+  }
+]
+
+3- Lấy khóa học theo danh mục
+[
+  {
+    "maKhoaHoc": "LTC_GP01",
+    "biDanh": "lap-trinh-c",
+    "tenKhoaHoc": "lập trình c++",
+    "moTa": "lập trình c++",
+    "luotXem": 10,
+    "hinhAnh": "http://elearning0706.cybersoft.edu.vn/hinhanh/khoahoc/lap-trinh-c-gp01.png",
+    "maNhom": "GP01",
+    "ngayTao": "01/01/2019",
+    "soLuongHocVien": 0,
+    "nguoiTao": {
+      "taiKhoan": "khai",
+      "hoTen": "khải",
+      "maLoaiNguoiDung": "GV",
+      "tenLoaiNguoiDung": "Giáo vụ"
+    },
+    "danhMucKhoaHoc": {
+      "maDanhMucKhoahoc": "TuDuy",
+      "tenDanhMucKhoaHoc": "Tư duy lập trình"
+    }
+  }
+]
+
+4 - Đăng kýdata
+	
+Model
+{
+  "taiKhoan": "string",
+  "matKhau": "string",
+  "hoTen": "string",
+  "soDT": "string",
+  "maLoaiNguoiDung": "string",
+  "maNhom": "string",
+  "email": "string"
+}
+	Lưu ý: maLoaiNguoiDung = HV
+
+Model
+{
+  "taiKhoan": "string",
+  "matKhau": "string",
+  "hoTen": "string",
+  "soDT": "string",
+  "maLoaiNguoiDung": "string",
+  "maNhom": "string",
+  "email": "string"
+}
+
+5 - Đăng nhập
+{
+  "taiKhoan": "khai",
+  "matKhau": "321321"
+}
+{
+  "taiKhoan": "khai",
+  "matKhau": "321321",
+  "email": "khaimail@gmail.com",
+  "soDT": "321321",
+  "maNhom": "GP01",
+  "maLoaiNguoiDung": "GV",
+  "hoTen": "khải",
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoia2hhaSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkdWIiwibmJmIjoxNTYwNTQ3MzUxLCJleHAiOjE1NjA1NTA5NTF9.bD1nzTHtVYg7avgF4kegdWhUWjh9kzJPkQEXcqwx4_Q"
+}
+
+6 - Chỉnh sửa thông tin cá nhân
+	method
+		PUT
+	url
+		http://elearning0706.cybersoft.edu.vn/api/QuanLyNguoiDung/CapNhatThongTinNguoiDung
+	data
+		{
+  "taiKhoan": "string",
+  "matKhau": "string",
+  "hoTen": "string",
+  "soDT": "string",
+  "maLoaiNguoiDung": "string",
+  "maNhom": "string",
+  "email": "string"
+}
+	headers
+		{
+"Authorization": "Bearer  "+ 
+       "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoia2hhaSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkdWIiwibmJmIjoxNTYwNTQ3MzUxLCJleHAiOjE1NjA1NTA5NTF9.bD1nzTHtVYg7avgF4kegdWhUWjh9kzJPkQEXcqwx4_Q"
+}
+		Lưu ý: {
+"Authorization": "Bearer  " +  token
+}
+
+7 - Đăng ký khóa học
+	method
+		POST
+	url
+		http://elearning0706.cybersoft.edu.vn
+/api/QuanLyKhoaHoc/DangKyKhoaHoc
+	data
+		{
+  "maKhoaHoc": "string",
+  "taiKhoan": "string"
+}
+	headers
+		{
+"Authorization": "Bearer  " +  token
+}
+
+8 - Hủy đăng ký
+	method
+		POST
+	url
+		http://elearning0706.cybersoft.edu.vn
+/api/QuanLyKhoaHoc/HuyGhiDanh
+	data
+		{
+  "maKhoaHoc": "string",
+  "taiKhoan": "string"
+}
+			Ghi chú
+				maKhoaHoc
+					Lấy từ param url
+				taiKhoan
+					Lấy từ localstorage sau khi đăng nhập
+	headers
+		{
+"Authorization": "Bearer  " +  token
+}
+	result.data
+		Hủy đăng ký khóa học thành công
+9 - Xem thông tin cá nhân
+	method
+		POST
+	url
+		http://elearning0706.cybersoft.edu.vn
+/api/QuanLyNguoiDung/ThongTinTaiKhoan
+	data
+		{
+"TaiKhoan":"khai"
+}
+	result.data
+		{
+chiTietKhoaHocGhiDanh: []
+email: "khaimail@gmail.com"
+hoTen: "khải"
+maLoaiNguoiDung: "GV"
+maNhom: "GP01"
+matKhau: "321321"
+soDT: "321321"
+taiKhoan: "khai"
+}
+	headers
+		{
+"Authorization": "Bearer  " +  token
+}
+
+10 - Chỉnh sửa thông tin cá nhân
+	
+		method
+			PUT
+		url
+			
+http://elearning0706.cybersoft.edu.vn
+/api/QuanLyNguoiDung/CapNhatThongTinNguoiDung
+		data
+			{
+  "taiKhoan": "string",
+  "matKhau": "string",
+  "hoTen": "string",
+  "soDT": "string",
+  "maLoaiNguoiDung": "string",
+  "maNhom": "string",
+  "email": "string"
+}
+		result.data
+			Sửa thành công
